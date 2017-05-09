@@ -14,6 +14,16 @@
 	    margin: 0;
 	    background: #69a7b4;
 	}
+	p,a {
+		font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	    color: white;
+	    font-size: 1.5em;
+	    font-weight: bold;
+	    letter-spacing: .3em;
+	}
+	a {
+		text-decoration: none;
+	}
 	.flex-container {
 	    height: 100%;
 	    padding: 0;
@@ -28,11 +38,9 @@
 	}
 	.row {
 	    width: auto;
-	    border: 1px solid blue;
 	}
 	.flex-item {
 		text-align: center;
-		font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 	}
 </style>
 <body>
@@ -42,6 +50,7 @@
 	        <div class="flex-item">
 	        	<p>OK Computer</p>
 	        	<img src="logo.png"/>
+	        	<a href='mailto:support@ok-computer.co'>Contact</a>
 	        </div>
 	</div>
 
